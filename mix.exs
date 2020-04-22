@@ -38,11 +38,11 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
 
   defp deps do
     [
-      {:commanded, github: "commanded/commanded"},
+      {:commanded, github: "joseph-lozano/commanded"},
       {:eventstore, github: "commanded/eventstore"},
 
       # Optional dependencies
-      {:jason, "~> 1.1", optional: true},
+      {:jason, "~> 1.2", optional: true},
 
       # Build & test tools
       {:ex_doc, ">= 0.0.0", only: :dev},
